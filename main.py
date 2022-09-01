@@ -1,4 +1,3 @@
-from re import T
 from javascript import require, On, Once, AsyncTask, once, off
 import time, subprocess, sys, random,os
 mineflayer = require('mineflayer')
