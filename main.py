@@ -72,7 +72,7 @@ def slaveFarm():
                     })
                     break
                 except:
-                    subprocess.call([sys.executable, os.path.realpath("main.py")] + sys.argv[1:])
+                    subprocess.call([sys.executable, os.path.realpath("mineflayer.py")] + sys.argv[1:])
                     sys.exit()
         def blockToHarvest():
             while True:
@@ -86,7 +86,7 @@ def slaveFarm():
                     })
                     break
                 except:
-                    subprocess.call([sys.executable, os.path.realpath("main.py")] + sys.argv[1:])
+                    subprocess.call([sys.executable, os.path.realpath("mineflayer.py")] + sys.argv[1:])
                     sys.exit()
         
         toHarvest = blockToHarvest()
@@ -236,17 +236,17 @@ def onChat(this, user, message, *rest):
 
 @On(bot, 'end')
 def ened(reason,LOL):
-    subprocess.call([sys.executable, os.path.realpath("main.py")] + sys.argv[1:])
+    subprocess.call([sys.executable, os.path.realpath("mineflayer.py")] + sys.argv[1:])
     sys.exit()
 
 @On(bot, 'respawn')
 def ened(reason=False,LOL=False,asd=False):
-    subprocess.call([sys.executable, os.path.realpath("main.py")] + sys.argv[1:])
+    subprocess.call([sys.executable, os.path.realpath("mineflayer.py")] + sys.argv[1:])
     sys.exit()
 
 @On(bot, 'kicked')
 def ened(reason=False,LOL=False,asdasd=False,asdasddd=False):
-    subprocess.call([sys.executable, os.path.realpath("main.py")] + sys.argv[1:])
+    subprocess.call([sys.executable, os.path.realpath("mineflayer.py")] + sys.argv[1:])
     sys.exit()
 
 time.sleep(20)
