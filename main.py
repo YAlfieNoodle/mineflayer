@@ -1,3 +1,4 @@
+print("we're in")
 from javascript import require, On, Once, AsyncTask, once, off
 import time, subprocess, sys, random,os
 mineflayer = require('mineflayer')
