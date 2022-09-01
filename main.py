@@ -101,7 +101,9 @@ def slaveFarm():
                     bot.blockAt(block.offset(0,1,0)).name
                 except:
                     continue
-                if bot.blockAt(block.offset(0,1,0)).name == "air":
+                try:
+                  conditionn = (bot.blockAt(block.offset(0,1,0)).name == "air")
+                if conditionn:
                     sow = block
                     while True:
                         try:
