@@ -2,7 +2,7 @@ from javascript import require
 import subprocess,sys
 mineflayer = require('mineflayer')
 
-bot = (mineflayer.createBot({"username":f"Slave",
+bot = (mineflayer.createBot({"username":f"Max's Sex Slave",
                             'host': "162.19.20.129",
                             "port": 41823,
                             "version": "1.16.5"
